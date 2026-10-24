@@ -1,41 +1,41 @@
-# ✨ IntelliText AI – Smart Language & Text Assistant
+# IntelliText AI – Smart Language & Text Assistant
 
-## 📌 Project Overview
+## Project Overview
 
-**IntelliText AI** is an AI-powered language and text assistant developed using Python, Streamlit, and Hugging Face Transformers. It provides four Natural Language Processing (NLP) features through a colourful and user-friendly web dashboard.
+IntelliText AI is an AI-powered language and text assistant developed using Python, Streamlit, and Hugging Face Transformers. It provides four Natural Language Processing (NLP) features through a colourful and user-friendly web dashboard.
 
 Users can summarize long text, translate English into French, analyze sentiment, and find answers from a given context.
 
-## 🎯 Features
+## Features
 
-### 📝 1. Text Summarization
+### 1. Text Summarization
 - Summarizes long paragraphs into concise text.
 - Uses a pretrained Hugging Face summarization model.
 - Helps users understand lengthy content quickly.
 
 **Model:** `sshleifer/distilbart-cnn-12-6`
 
-### 🌍 2. Language Translation
+### 2. Language Translation
 - Translates English text into French.
 - Uses a pretrained neural machine translation model.
 
 **Model:** `Helsinki-NLP/opus-mt-en-fr`
 
-### 😊 3. Sentiment Analysis
+### 3. Sentiment Analysis
 - Analyzes text sentiment.
 - Classifies text as Positive or Negative.
 - Displays the model's confidence score.
 
 **Model:** `distilbert/distilbert-base-uncased-finetuned-sst-2-english`
 
-### ❓ 4. Question Answering
+### 4. Question Answering
 - Accepts a passage of text as context.
 - Allows users to ask questions about the passage.
 - Generates answers based on the provided context.
 
 **Model:** `distilbert/distilbert-base-cased-distilled-squad`
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Programming Language:** Python
 - **Frontend / Dashboard:** Streamlit
@@ -44,7 +44,7 @@ Users can summarize long text, translate English into French, analyze sentiment,
 - **NLP:** Natural Language Processing
 - **Model Hub:** Hugging Face
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 IntelliText-AI/
@@ -54,7 +54,7 @@ IntelliText-AI/
 └── requirements.txt
 ```
 
-## ⚙️ Installation and Setup
+## Installation and Setup
 
 ### Step 1: Clone the Repository
 
@@ -102,7 +102,7 @@ The application will open in your web browser. If it does not open automatically
 
 `http://localhost:8501`
 
-## 🚀 How to Use
+## How to Use
 
 1. Launch the IntelliText AI application.
 2. Choose a feature from the sidebar.
@@ -110,7 +110,7 @@ The application will open in your web browser. If it does not open automatically
 4. Click the corresponding action button.
 5. View the AI-generated result on the dashboard.
 
-## 🧪 Example Inputs
+## Example Inputs
 
 ### Text Summarization
 
@@ -119,6 +119,7 @@ Enter a paragraph about Artificial Intelligence and click **Generate Summary**.
 ### Language Translation
 
 **Input:**
+
 ```text
 Artificial intelligence is changing the world.
 ```
@@ -128,6 +129,7 @@ Artificial intelligence is changing the world.
 ### Sentiment Analysis
 
 **Input:**
+
 ```text
 I love this product. It is amazing!
 ```
@@ -137,18 +139,20 @@ I love this product. It is amazing!
 ### Question Answering
 
 **Context:**
+
 ```text
 Python is a popular programming language created by Guido van Rossum in 1991. It is widely used in web development, data science, artificial intelligence, and machine learning.
 ```
 
 **Question:**
+
 ```text
 Who created Python?
 ```
 
 **Expected answer:** Guido van Rossum.
 
-## 🌟 Key Benefits
+## Key Benefits
 
 - Easy-to-use web interface.
 - Four AI-powered NLP features in one application.
@@ -156,7 +160,7 @@ Who created Python?
 - Colourful and interactive dashboard.
 - Suitable for learning and demonstrating NLP applications.
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - Support for additional languages.
 - More sentiment categories.
@@ -165,17 +169,9 @@ Who created Python?
 - Chatbot integration.
 - Deployment as a public web application.
 
-## 🎓 Project Information
+## Project Information
 
 **Project Name:** IntelliText AI – Smart Language & Text Assistant  
 **Project Type:** AI / Natural Language Processing  
 **Project Level:** Learning Project  
 **Project Focus:** Hugging Face Pipelines with Streamlit
-
-## 👩‍💻 Author
-
-K.VARALAKSHMI
-
----
-
-⭐ If you find this project useful, consider giving the repository a star!
